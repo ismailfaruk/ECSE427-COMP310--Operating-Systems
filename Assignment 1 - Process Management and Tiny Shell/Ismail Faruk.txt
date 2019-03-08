@@ -1,0 +1,46 @@
+--------------------------------------------
+               Assignment 1                 
+--------------------------------------------
+Feedback: 
+~~~~~~~~
+To be precise with the timing you should begin and end the timer exactly before and after the portions of the source you want to time. Like just before the call for fork() and right after the wait() on the parent. (No marks deducted for this)
+
+system() based implementation does not execute any commands. Just 0s is printed for time. Thats because of the missed "#" before the "else" compiler pre-processor in the my_system() function. Also, no semicolon next to system(line).
+
+Typing exit does not exit() from the program.
+
+Follow printf's with "fflush(stdout)" to ensure print in place. (No points deducted for this)
+
+No semicolon next to the " my_system_p_write(line, my_fifo)" line. So compilation error.
+
+"my_system_p_write" is called for both cases FIFO_READ and FIFO_WRITE.
+
+When input is redirected from file in the PIPE case sometimes it doesnt run to completion. This could be because you dont test for EOF correctly in the get_a_line() method. 
+
+++++++++++
+Report
+++++++++++
+In system() also there was another process spawned. But that happened inisde the system() library function, we didnt have to deal with it. (-1)
+
+More work needed in terms of the report. Also single digit timings are not quiet right. Need better results. :D (-4)
+
+Graded by TA-Shabir
+--------------------------------------------
+     system()              [05%]  - 3
+     fork()                [10%]  - 9
+     vfork()               [05%]  - 4
+     clone()               [20%]  - 19
+     fifo()                [25%]  - 20.5
+     Timing                [10%]  - 10
+     Report                [15%]  - 10
+     Code Quality:
+           Error Handling  [2%]   - 2
+           Signal Handling [2%]   - 2
+           Formatting      [2%]   - 2
+           Comments        [2%]   - 2
+           Misc            [2%]   - 2
+---------------------------------------------
+     Reductions            [-]    - (-0)
+     Late Penalty          [10%]  - (-8.55)
+=============================================
+     Total                 [100%] - 76.95

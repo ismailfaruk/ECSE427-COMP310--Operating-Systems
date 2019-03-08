@@ -1,0 +1,1 @@
+some code in read and write are commented out. They are numbered as 1, 2 and 3 in both cases. Should you require to redefine structs, you can use them to do so. That' all.
