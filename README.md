@@ -21,6 +21,6 @@ Assignment 3 - Simple Resource Container - Creating [Cgroup](https://en.wikipedi
 
 ## Authors
 
-* **Ismail Faruk**
+* [Ismail Faruk](https://github.com/ismailfaruk)
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
