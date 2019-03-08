@@ -14,7 +14,7 @@ Assignment 3 - Simple Resource Container - Creating [Cgroup](https://en.wikipedi
 
 ## Built With
 
-* [C](https://en.wikipedia.org/wiki/C_(programming_language) - The programming language used
+* [C](https://en.wikipedia.org/wiki/C_(programming_language)) - The programming language used
 * [Ubuntu](https://www.ubuntu.com/) - The Linux Distro used for deployment and testing
 * [Visual Studio Code](https://code.visualstudio.com/) - The source code editor
 * [Docker](https://www.docker.com/) - The software used for operating-system-level virtualization
