@@ -1,4 +1,5 @@
-# [ECSE427-COMP310--Operating-Systems](https://www.mcgill.ca/study/2018-2019/courses/ecse-427)
+# ECSE427-COMP310--Operating-Systems
+[ECSE 427](https://www.mcgill.ca/study/2018-2019/courses/ecse-427)
 [COMP 310](https://www.mcgill.ca/study/2018-2019/courses/comp-310)
 
 This reopository contains 3 Assignments done using C, which were made for adademic use.
